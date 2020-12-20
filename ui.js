@@ -37,9 +37,9 @@ class UI{
         clearday.forEach((current)=>{
             if(code.indexOf(current)!==-1){
                 document.getElementById('weather-img').innerHTML=`<img src="images/sunny.png">`;
-                //background.style.background="url('gifs/clear.gif')";
-                //background.style.backgroundRepeat="no-repeat";
-                //background.style.backgroundSize="cover";
+                background.style.background="url('gifs/clear.gif')";
+                background.style.backgroundRepeat="no-repeat";
+                background.style.backgroundSize="cover";
                 
             }
         })
