@@ -68,7 +68,7 @@ document.getElementById('search').addEventListener('click',(e)=>{
 
 document.getElementById('clear').addEventListener('click',(e)=>{
 
-    slider.style.display='block';
+    slider.style.display='none';
     city.value='';
     country.value='';
     background.style.display='none';
